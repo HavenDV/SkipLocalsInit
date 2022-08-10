@@ -1,0 +1,12 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <SkipLocalsInit_Visible>false</SkipLocalsInit_Visible>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)*.cs" Visible="$(SkipLocalsInit_Visible)" />
+  </ItemGroup>
+  
+</Project>

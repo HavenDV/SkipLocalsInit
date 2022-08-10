@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkipLocalsInit", "src\libs\SkipLocalsInit\SkipLocalsInit.csproj", "{F21C63EC-1DE0-4783-B168-0618CCEDB807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BC625A2D-7792-49D4-86CC-50B3A94A2194}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\ISSUE_TEMPLATE\bug-report.yaml = .github\ISSUE_TEMPLATE\bug-report.yaml
+		src\libs\Directory.Build.props = src\libs\Directory.Build.props
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21C63EC-1DE0-4783-B168-0618CCEDB807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21C63EC-1DE0-4783-B168-0618CCEDB807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21C63EC-1DE0-4783-B168-0618CCEDB807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21C63EC-1DE0-4783-B168-0618CCEDB807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFB8620D-2B1F-4624-9C9E-56E52B818E2C}
+	EndGlobalSection
+EndGlobal

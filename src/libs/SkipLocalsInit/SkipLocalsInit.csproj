@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NoWarn>$(NoWarn);CA1014;CA1031</NoWarn>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);IDE0001;IDE0002;IDE0190</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet">
+    <NoWarn>$(NoWarn);NU5128;CA1724</NoWarn>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Description>Enables SkipLocalsInit by simply specifying the dev NuGet package.</Description>
+    <PackageTags>Skip;Locals;Init;SkipLocalsInit</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(AssemblyName).props" Pack="true" PackagePath="build" />
+    <None Include="*.cs" Pack="true" PackagePath="build" />
+  </ItemGroup>
+
+</Project>
