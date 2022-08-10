@@ -1,7 +1,7 @@
 # SkipLocalsInit
 A simple package that allows you to quickly add [SkipLocalsInit](https://www.meziantou.net/csharp-9-improve-performance-using-skiplocalsinit.htm) to any project in one line. 
 It will deliver the required code and attribute to any library (Even in the .Net Framework) and also provide the required MSBuild properties. 
-Your project will not reference this library.
+This package does not contain any compiled libraries.
 
 ## Install
 ```xml
