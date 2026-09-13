@@ -1,4 +1,8 @@
 # SkipLocalsInit
+
+> [!IMPORTANT]
+> SkipLocalsInit is deprecated and no longer maintained. Existing NuGet versions remain available for legacy consumers. For new code, configure the compiler and SDK's built-in `SkipLocalsInit` support directly in the project.
+
 A simple package that allows you to quickly add [SkipLocalsInit](https://www.meziantou.net/csharp-9-improve-performance-using-skiplocalsinit.htm) to any project in one line. 
 It will deliver the required code and attribute to any library (Even in the .Net Framework) and also provide the required MSBuild properties. 
 This package does not contain any compiled libraries.
